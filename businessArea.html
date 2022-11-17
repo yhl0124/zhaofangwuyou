@@ -256,4 +256,17 @@
 
 
 </html>
+<script src="./js/touch.min.js"></script>
 <script src="./js/businessArea.js"></script>
+
+<script>
+    var body = document.getElementsByTagName('body')
+    console.log(body)
+    touch.on(body, 'swipeleft', function (ev) {
+        window.location.href = './sell.html'
+    });
+
+    touch.on(body, 'swiperight', function (ev) {
+        window.location.href = './index.html'
+    });
+</script>

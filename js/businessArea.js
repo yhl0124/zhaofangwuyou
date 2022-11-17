@@ -23,6 +23,7 @@ var more_a = document.getElementById('more_a');
 
 btn_.onclick = function () {
     box_a.style.display = 'block';
+    area_a.style.display = 'block';
 
 }
 
@@ -38,6 +39,7 @@ btn_2.onclick = function () {
     house_a.style.display = 'block';
     area_a.style.display = 'none';
     // console.log(1111);
+    price_a.style.display = 'none';
 
 }
 btn_3.onclick = function () {
@@ -45,6 +47,8 @@ btn_3.onclick = function () {
     more_a.style.display = 'block';
     box_a.style.display = 'block';
     area_a.style.display = 'none';
+    house_a.style.display = 'none';
+    price_a.style.display = 'none';
 }
 
 

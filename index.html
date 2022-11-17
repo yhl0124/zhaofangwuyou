@@ -147,5 +147,19 @@
     </section>
 </body>
 
+
 </html>
 <script src="./js/index.js"></script>
+
+<script src="./js/touch.min.js"></script>
+<script>
+    var body = document.getElementsByTagName('body')
+    console.log(body)
+    touch.on(body, 'swipeleft', function (ev) {
+        window.location.href = './businessArea.html'
+    });
+
+    // touch.on(body, 'swiperight', function (ev) {
+    //     window.location.href = '.sinessArea.html'
+    // });
+</script>

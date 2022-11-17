@@ -198,3 +198,16 @@
 </body>
 
 </html>
+
+<script src="./js/touch.min.js"></script>
+<script>
+    var body = document.getElementsByTagName('body')
+    console.log(body)
+    touch.on(body, 'swipeleft', function (ev) {
+        window.location.href = './renting.html'
+    });
+
+    touch.on(body, 'swiperight', function (ev) {
+        window.location.href = './businessArea.html'
+    });
+</script>
