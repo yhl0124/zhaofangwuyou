@@ -24,22 +24,38 @@
     <!-- 导航 -->
     <section class="sectionOne">
         <ul>
+           
             <li>
+ <a href="attention.html">
                 <img src="./image/index/index_03.png" alt="">
                 二手房
+                 </a>
             </li>
+       
+       
             <li>
+                 <a href="businessArea.html">
                 <img src="./image/index/index_05.png" alt="">
-                二手房
+                新房
+                  </a>
             </li>
+      
+      
             <li>
+                  <a href="./renting.html">
                 <img src="./image/index/index_07.png" alt="">
-                二手房
+                租房
+                 </a>
             </li>
+       
+      
             <li>
+                  <a href="housingResource.html">
                 <img src="./image/index/index_09.png" alt="">
-                二手房
+                卖房
+                 </a>
             </li>
+       
         </ul>
     </section>
     <!--看资讯 -->
@@ -154,12 +170,8 @@
 <script src="./js/touch.min.js"></script>
 <script>
     var body = document.getElementsByTagName('body')
-    console.log(body)
-    touch.on(body, 'swipeleft', function (ev) {
-        window.location.href = './businessArea.html'
+    // console.log(body)
+    touch.on(body,'swipeleft', function () {
+        location.href = './businessArea.html'
     });
-
-    // touch.on(body, 'swiperight', function (ev) {
-    //     window.location.href = '.sinessArea.html'
-    // });
 </script>
