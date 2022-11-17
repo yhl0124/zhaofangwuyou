@@ -24,17 +24,20 @@
    
 
    <ul class="ul">
-    <a href="#">
+    <a href="renting.html">
     <li>
-      
        <p>我关注的房源</p>
        <img src="./image/my/right.png" alt="" class="Img2">
     </li>
+    </a>
+    <a href="attention.html">
     <li>
         
         <p>我关注的小区</p>
         <img src="./image/my/right.png" alt="" class="Img2">
     </li>
+</a>
+<a href="businessArea.html">
     <li>
         
         <p>我的看房记录</p>
@@ -47,3 +50,17 @@
 </body>
 
 </html>
+<script src="./js/touch.min.js"></script>
+<script>
+       var body=document.getElementsByTagName('body')
+    // console.log(body)
+    //向左滑动
+    touch.on(body, 'swipeleft', function() {
+        // 跳转到我关注的小区
+     location.href='./attention.html'
+});
+  //向右滑动跳转到注册页
+touch.on(body, 'swiperight', function() {
+     location.href='./register.html'
+});
+</script>

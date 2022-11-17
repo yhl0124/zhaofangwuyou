@@ -58,3 +58,19 @@
 </body>
 
 </html>
+
+<script src="./js/touch.min.js"></script>
+<script>
+       var body=document.getElementsByTagName('body')
+    // console.log(body)
+    //向左滑动
+    touch.on(body, 'swipeleft', function() {
+        // 跳转到立即登录
+     location.href='./logInNow.html'
+});
+  //向右滑动跳转到立即登录页
+touch.on(body, 'swiperight', function() {
+    // 跳转到我关注的小区
+     location.href='./attention.html'
+});
+</script>

@@ -29,9 +29,34 @@
                 <input type="password" placeholder="请输入新密码">
                
             </li>
+             <ul id="ul">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
          </ul>
          <button class="btn2">立即注册</button>
     </form>
+   
 </body>
 
 </html>
+<script src="./js/register.js"></script>
+<script>
+</script>
+
+<script src="./js/touch.min.js"></script>
+<script>
+       var body=document.getElementsByTagName('body')
+    // console.log(body)
+    //向左滑动
+    touch.on(body, 'swipeleft', function() {
+        // 跳转到我的页面
+     location.href='./my.html'
+});
+  //向右滑动跳转到立即登录页
+touch.on(body, 'swiperight', function() {
+    // 跳转到房源信息
+     location.href='./housingResource.html'
+});
+</script>

@@ -13,36 +13,62 @@
 <body>
     <iframe src="./header.html" frameborder="0" scroling="no" width="100%"></iframe>
     <div class="top">
-        <p><strong>首页</strong> > <span>我的 > </span> <span>登录</span></p>
+        <p><strong>首页</strong> > <i>我的 > </i> <i>登录</i></p>
     </div>
-    <form action="#" id="form1">
-    <ul>
-        <i>
-        <span class="span1">普通登录</span>
-        <span class="span2">验证码快捷登录</span>
+    <div class="center">
+         <i>
+        <span class="span">普通登录</span>
+        <span>验证码快捷登录</span>
     </i>
+ <form action="#">
+    <ul>    
         <li>
-           <input type="text" placeholder="请输入手机号">
+           <input type="text" placeholder="请输入手机号" class="input1">
         </li>
         <li>
-            <input type="password" placeholder="请输入密码">
+            <input type="password" placeholder="请输入密码" class="input1">
          </li>
-    </ul>
-<div class="footer">
- <a href="#" class="btn">立即登录</a>
-    <a href="#" class="left">立即注册</span>
-    <a href="#" class="right">忘记密码</span>
+ <div class="a">
+        <p></p>
+        <p></p>
+ </div>
+
+
+         <div class="footer">
+    <button class="btn">立即登录</button>
+    <a href="./register.html" class="left">立即注册</a>
+    <a href="./retrievePassword.html" class="right">忘记密码</a>
     </div>
+   
+    </ul>
+
+    <ul>
+            <li>
+               <input type="text" placeholder="请输入手机号" class="input1">
+               <a href="#" class="verify">发送验证码</a>
+            </li>
+            <li>
+                <input type="password" placeholder="请输入短信中的验证码" class="input1">
+             </li>
+             <div class="b">
+                <p></p>
+                <p></p>
+         </div>
+              <div class="footer">
+     <button class="btn">验证并登录</button>
+        <a href="./register.html" class="left">立即注册</a>
+        <a href="./retrievePassword.html" class="right">忘记密码</a>
+        </div>
+
+        <a href="###" class="YZ">发送验证码</a>
+        </ul>
+   
+    
 </form>
 
-
-
-<form action="#" id="form2">
+<!-- <form action="#">
     <ul>
-        <i>
-        <span class="span1">普通登录</span>
-        <span class="span2">验证码快捷登录</span>
-    </i>
+      
         <li>
            <input type="text" placeholder="请输入手机号">
            <a href="#" class="verify">发送验证码</a>
@@ -56,11 +82,27 @@
     <a href="#" class="left">立即注册</span>
     <a href="#" class="right">忘记密码</span>
     </div>
-</form>
+</form> -->
 
-
-   
-
+    </div>
 </body>
 
 </html>
+<script src="./js/logInNow.js"></script>
+
+
+<script src="./js/touch.min.js"></script>
+<script>
+    var body=document.getElementsByTagName('body')
+    // console.log(body)
+    // 向左滑动
+    touch.on(body, 'swipeleft', function() {
+        // 跳转到找回密码页
+     location.href='./retrievePassword.html'
+});
+ // 向右滑动
+touch.on(body, 'swiperight', function() {
+     // 跳转到登录页
+     location.href='./login.html'
+});
+</script>
