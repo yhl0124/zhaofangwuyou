@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #F5F5F5;
+}
+iframe {
+  height: 7rem;
+}
+.iframe1 {
+  height: 15.5rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  margin-top: -0.3rem;
+  width: 100%;
+  height: 20rem;
+  background-color: salmon;
+  position: relative;
+  overflow: hidden;
+}
+header div {
+  width: 100%;
+  height: 100%;
+}
+header div img {
+  width: 100%;
+}
+header span {
+  display: block;
+  width: 4rem;
+  height: 2rem;
+  background-color: #535052;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  text-align: center;
+  line-height: 2rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1.4rem;
+}
+.sectionOne {
+  width: 100%;
+  height: 20rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #c0b4bd;
+}
+.sectionOne .box {
+  width: 100%;
+  height: 100%;
+}
+.sectionOne .box h2 {
+  font-size: 2rem;
+}
+.sectionOne .box p {
+  margin-top: 2rem;
+  width: 100%;
+  font-size: 1.3rem;
+}
+.sectionOne .box p .color {
+  color: #DB4C3F;
+}
+.sectionOne .box .color1 {
+  color: #635958;
+}
+.sectionOne .box .color2 span {
+  float: left;
+  display: block;
+  background-color: #DEE9F0;
+  color: #635958;
+  margin-left: 1rem;
+}
+.sectionOne .box .color2 .a {
+  padding: 0;
+  width: 5rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+}
+.sectionOne .box .color2 .b {
+  width: 5rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+}
+.sectionOne .box .color2 .c {
+  width: 7rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+}
+.sectionTwo {
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #8b9494;
+  border-top: 1px solid #8b9494;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+.sectionTwo ul li {
+  width: 100%;
+  height: 5rem;
+  border-bottom: 1px solid #cfd8d8;
+  line-height: 5rem;
+  font-size: 1.4rem;
+}
+.sectionTwo ul li div {
+  width: 50%;
+  float: left;
+}
+.sectionTwo ul .more {
+  text-align: center;
+  border: 0;
+  color: #a79e9d;
+}
+.sectionThree {
+  margin-top: 2rem;
+  width: 100%;
+  height: 20rem;
+  background-color: white;
+  padding: 2rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #8b9494;
+  border-top: 1px solid #8b9494;
+}
+.sectionThree h2 {
+  width: 100%;
+  font-size: 2rem;
+  color: #ff9326;
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom: 1px solid #dee0db;
+}
+.sectionThree .p1 {
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #dee0db;
+}
+.sectionThree .p2 {
+  width: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+  height: 3rem;
+  line-height: 3rem;
+  color: #a79e9d;
+}
+.sectionFour {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 2rem;
+  border-bottom: 1px solid #8b9494;
+  border-top: 1px solid #8b9494;
+  box-sizing: border-box;
+  background-color: white;
+}
+.sectionFour h2 {
+  height: 5rem;
+  font-size: 2rem;
+  line-height: 5rem;
+}
+.sectionFour .o {
+  color: #ff9326;
+}
+.sectionFour #l {
+  border: 0;
+}
+.sectionFour .house {
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 14rem;
+  width: 100%;
+  border-bottom: 1px solid #8b9494;
+}
+.sectionFour .house .img {
+  float: left;
+  width: 30%;
+}
+.sectionFour .house .img img {
+  width: 100%;
+}
+.sectionFour .house .pattern {
+  margin-left: 0.5rem;
+  float: left;
+  width: 65%;
+}
+.sectionFour .house .pattern p {
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+  font-size: 1.3rem;
+}
+.sectionFour .house .pattern p span {
+  padding: 0.5rem;
+  display: block;
+  float: left;
+  background-color: #f4f7f9;
+  color: #849aae;
+}
+.sectionFour .house .pattern p .le {
+  margin-left: 0.5rem;
+}
+.sectionFive {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 2rem;
+  border-bottom: 1px solid #8b9494;
+  border-top: 1px solid #8b9494;
+  box-sizing: border-box;
+  background-color: white;
+}
+.sectionFive ul .school {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.sectionFive ul .school1 {
+  text-align: center;
+  border: 0;
+  color: #999;
+}
+.sectionFive ul li {
+  width: 100%;
+  height: 5rem;
+  line-height: 5rem;
+  border-bottom: 1px solid #8b9494;
+  font-size: 1.5rem;
+}
+.sectionFive ul li span {
+  color: #999;
+}
+.sectionFix {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 2rem;
+  border-bottom: 1px solid #8b9494;
+  border-top: 1px solid #8b9494;
+  box-sizing: border-box;
+  background-color: white;
+}
+.sectionFix h2 {
+  width: 100%;
+  height: 4rem;
+  font-size: 2rem;
+  border-bottom: 1px solid #8b9494;
+}
+.sectionFix div {
+  margin-top: 2rem;
+  width: 100%;
+  height: 100%;
+}
+.sectionFix div img {
+  width: 100%;
+}
+.sectionSeven {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 2rem;
+  border-bottom: 1px solid #8b9494;
+  border-top: 1px solid #8b9494;
+  box-sizing: border-box;
+  background-color: white;
+}
+.sectionSeven .similarity {
+  margin-top: 1rem;
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.2rem;
+  color: #635958;
+}
+.sectionSeven h2 {
+  width: 100%;
+  height: 4rem;
+  font-size: 2rem;
+  border-bottom: 1px solid #8b9494;
+}
+.sectionSeven ul {
+  background-color: white;
+  overflow: hidden;
+}
+.sectionSeven ul .box {
+  border-bottom: 1px solid #FF8A00;
+}
+.sectionSeven ul li {
+  margin-top: 1rem;
+  overflow: hidden;
+  width: 100%;
+  height: 16rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.sectionSeven ul li .img1 {
+  width: 30%;
+  float: left;
+}
+.sectionSeven ul li .img1 img {
+  width: 100%;
+}
+.sectionSeven ul li .recommend {
+  position: relative;
+  width: 100%;
+  height: 3rem;
+  position: absolute;
+  bottom: 0;
+  background-color: #F2F2F2;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+.sectionSeven ul li .recommend .recommend1 {
+  display: block;
+  position: absolute;
+  top: -2rem;
+  left: 1rem;
+  width: 0;
+  height: 0;
+  border-top: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-bottom: 1rem solid #F2F2F2;
+  border-left: 1rem solid transparent;
+  z-index: 3;
+}
+.sectionSeven ul .text {
+  width: 60%;
+  float: right;
+}
+.sectionSeven ul .text h3 {
+  width: 100%;
+  font-size: 1.7rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.sectionSeven ul .text p {
+  margin: 1rem 0;
+  overflow: hidden;
+  font-size: 1.3rem;
+}
+.sectionSeven ul .text .num span {
+  float: right;
+  color: #FF8A00;
+}
+.sectionSeven ul .text .num1 {
+  color: #756f6f;
+}
+.sectionSeven ul .text .num1 span {
+  float: right;
+}
+.sectionSeven ul .text .num2 span {
+  display: block;
+  float: left;
+  height: 2rem;
+  background-color: #F4F7F9;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  color: #756f6f;
+}
+.sectionEight {
+  width: 100%;
+  height: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+.sectionEight .relation {
+  float: left;
+  height: 4rem;
+  width: 70%;
+  background-color: #FF8A00;
+  color: white;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.6rem;
+  background: #ff8a00 url("../image/SecondHandList/user.png") 3.3rem center no-repeat;
+  background-size: 3rem;
+}
+.sectionEight .relation1 {
+  float: right;
+  width: 30%;
+  height: 4rem;
+  background-color: white;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.6rem;
+  color: #b6acac;
+  background: url("../image/SecondHandList/xin.png") 0.5rem center no-repeat;
+  background-size: 3rem;
+}
