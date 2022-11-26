@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="./css/register.css">
+    <script src="./js/setRem.js"></script>
+
+</head>
+
+<body>
+    <iframe src="./header.html" frameborder="0" scroling="no" width="100%"></iframe>
+    <div class="top">
+        <p><strong>首页</strong> > <span>我的</span> > <span>注册</span></p>
+    </div>
+    <form action="#">
+        <ul>
+            <li class="li">
+                <input type="text" placeholder="请输入手机号码">
+                <button class="btn">发送验证码</button>
+            </li>
+            <li>
+                <input type="text" placeholder="请输入短信中的验证码">
+            </li>
+            <li>
+                <input type="password" placeholder="请输入新密码">
+
+            </li>
+             <ul id="ul">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+         </ul>
+         <button class="btn2">立即注册</button>
+    </form>
+   
+</body>
+
+</html>
+<script src="./js/register.js"></script>
+<script>
+</script>
+
+<script src="./js/touch.min.js"></script>
+<script>
+       var body=document.getElementsByTagName('body')
+    // console.log(body)
+    //向左滑动
+    touch.on(body, 'swipeleft', function() {
+        // 跳转到我的页面
+     location.href='./my.html'
+});
+  //向右滑动跳转到立即登录页
+touch.on(body, 'swiperight', function() {
+    // 跳转到房源信息
+     location.href='./housingResource.html'
+});
+</script>

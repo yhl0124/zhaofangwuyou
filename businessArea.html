@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商圈</title>
+    <link rel="stylesheet" href="./css/businessArea.css">
+    <script src="./js/setRem.js"></script>
+</head>
+
+<body>
+    <!--头部 -->
+    <iframe src="./header.html" frameborder="0" scroling="no" width="100%"></iframe>
+
+
+    <!-- 搜索栏 -->
+    <section class="sectionOne">
+        <div class="ipt">
+            <input type="text" placeholder="请输入小区名或商圈名称">
+            <span>|</span>
+            <span class="seach"><img src="./image/index/seach.jpg" alt=""></span>
+        </div>
+    </section>
+    <!--导航栏 -->
+    <section class="sectionTwo">
+        <div></div>
+        <ul class="box">
+            <li>
+                <a href="###" class="btn">区域<span></span></a>
+            </li>
+            <li>
+                <a href="###" class="btn">月租<span></span></a>
+            </li>
+            <li><a href="###" class="btn">房型<span></span>
+                </a>
+            </li>
+            <li><a href="###" class="btn">更多<span></span></a>
+            </li>
+        </ul>
+        <!-- 遮罩 -->
+        <div class="mask"></div>
+
+        <!-- 导航栏选择部分 -->
+        <div class="select" id="box-a">
+            <ul class="box">
+                <li class="bt"><a href="###">区域<span></span></a>
+                </li>
+                <li class="bt"><a href="###"> 月租<span></span></a>
+                </li>
+                <li class="bt"><a href="###">房型<span></span></a>
+                </li>
+                <li class="bt"><a href="###">更多<span></span></a>
+                </li>
+            </ul>
+            <!-- 区域 -->
+            <div class="area row" id="area_a">
+                <!-- 区域左边 -->
+                <div class="areaLeft">
+                    <p>区域</p>
+                    <p>地铁</p>
+                </div>
+                <!-- 区域中间 -->
+                <div class="areaCenter">
+                    <ul>
+                        <li>附近</li>
+                        <li>不限</li>
+                        <li class="cl">朝阳</li>
+                        <li>海淀</li>
+                        <li>昌平</li>
+                        <li>丰台</li>
+                        <li>石景山</li>
+                    </ul>
+
+                </div>
+                <!-- 区域右边-->
+                <div class="areaRight">
+                    <ul>
+                        <li class="cl">不限</li>
+                        <li>安贞</li>
+                        <li>奥林匹克公园</li>
+                        <li>百子湾</li>
+                        <li>北工大</li>
+                        <li>北苑</li>
+                        <li>CBD</li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- 价格 -->
+            <div class="price row" id="price_a">
+                <ul>
+                    <li>不限</li>
+                    <li>100万以下</li>
+                    <li>100万-150万</li>
+                    <li>150万-200万</li>
+                    <li>200万-250万</li>
+                    <li>250万-300万</li>
+                    <li>自定义价格</li>
+                </ul>
+
+            </div>
+            <!-- 房型 -->
+            <div class="house row" id="house_a">
+                <ul>
+                    <li>不限 </li>
+                    <li>1室 <input type="checkbox"></li>
+                    <li>2室 <input type="checkbox"></li>
+                    <li>3室 <input type="checkbox"></li>
+                    <li>4室 <input type="checkbox"></li>
+                    <li>5室 <input type="checkbox"></li>
+                    <li class="confirm">确定</li>
+                </ul>
+
+            </div>
+            <!-- 更多 -->
+            <div class="more row" id="more_a">
+                <div>
+                    <h3>区域</h3>
+                    <ul>
+                        <li>东</li>
+                        <li>西</li>
+                        <li>南</li>
+                        <li>北</li>
+                        <li>东南</li>
+                        <li>东北</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>面积（平方）</h3>
+                    <ul>
+                        <li>50以下</li>
+                        <li>50-70</li>
+                        <li>70-90</li>
+                        <li>90-110</li>
+                        <li>110-130</li>
+                        <li>130-150</li>
+                        <li>150-200</li>
+                        <li>200以上</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>标签</h3>
+                    <ul>
+                        <li>学区房</li>
+                        <li>地铁房</li>
+                        <li>有钥匙</li>
+                        <li>不限购</li>
+                        <li>欣赏</li>
+                        <li>降价</li>
+                        <li>满五唯一</li>
+                        <li>独家</li>
+                        <li>满两年</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>楼龄</h3>
+                    <ul>
+                        <li>5年以内</li>
+                        <li>10年以内</li>
+                        <li>10-20年</li>
+                        <li>20年以上</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>楼层</h3>
+                    <ul>
+                        <li>低楼层</li>
+                        <li>中楼层</li>
+                        <li>高楼层</li>
+
+                    </ul>
+                </div>
+
+                <p><a href="###">清空条件</a></p>
+
+                <p class="w"><a href="###">确定</a></p>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="sectionThree">
+        <ul>
+            <li>
+                <div class="rentalList">
+                    <img src="./image/secondhandlist/img1.png" alt="">
+                </div>
+                <div class="rentalList1">
+                    <h3>西便门外大街2室1厅89平</h3>
+                    <p>南北 高楼层/6层</p>
+                    <p class="a">签约价格:13244元/平<strong>1905万</strong> </p>
+                    <p class="a">
+                        签约日期:2015年11月10日
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="rentalList">
+                    <img src="./image/secondhandlist/img2.png" alt="">
+                </div>
+                <div class="rentalList1">
+                    <h3>金桥国际 1室1厅 63平</h3>
+                    <p>南北 高楼层/6层</p>
+                    <p class="a">签约价格:13244元/平 <strong>905万</strong> </p>
+                    <p class="a">
+                        签约日期:2015年11月10日
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="rentalList">
+                    <img src="./image/secondhandlist/img3.png" alt="">
+                </div>
+                <div class="rentalList1">
+                    <h3>花涧溪二期 2室2厅 90平</h3>
+                    <p>南北 高楼层/6层</p>
+                    <p class="a">签约价格:13244元/平<strong>13305万</strong> </p>
+                    <p class="a">
+                        签约日期:2015年11月10日
+                    </p>
+                </div>
+            </li>
+
+        </ul>
+
+    </section>
+
+
+    <script src="./js/touch.min.js"></script>
+<script>
+       var body=document.getElementsByTagName('body')
+    // console.log(body)
+    //向左滑动
+    touch.on(body, 'swipeleft', function() {
+        // 跳转到登录页
+     location.href='./index.html'
+});
+  //向右滑动
+touch.on(body, 'swiperight', function() {
+    // 跳转到我的页
+     location.href='./sell.html'
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 底部 -->
+    <iframe src="./footer.html" frameborder="0" scroling="no" width="100%" class="iframe1"></iframe>
+</body>
+
+
+</html>
+<script src="./js/touch.min.js"></script>
+<script src="./js/businessArea.js"></script>
+
+<script>
+    var body = document.getElementsByTagName('body')
+    console.log(body)
+    touch.on(body, 'swipeleft', function (ev) {
+        window.location.href = './sell.html'
+    });
+
+    touch.on(body, 'swiperight', function (ev) {
+        window.location.href = './index.html'
+    });
+</script>

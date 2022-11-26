@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/setRem.js"></script>
+</head>
+
+<body>
+    <div class="img">
+        <span class="span1">
+          
+            我的</span>
+        <span class="span2">
+           
+            APP</span>
+        <img src="./image/my/bg1.png" alt="" class="img1">
+         <img src="./image/my/urse2.png" alt="" class="img2">
+        <a href="./logInNow.html">登录</a>
+    </div>
+   
+
+   <ul class="ul">
+  <a href="renting.html">
+    <li>
+       <img src="./image/my/icon1.png" alt="" class="Img1">
+      <p> 我关注的房源</p> 
+       <img src="./image/my/right.png" alt="" class="Img2">
+    </li>
+</a>
+<a href="attention.html">
+    <li>
+        <img src="./image/my/icon2.png" alt="" class="Img1">
+        <p> 我关注的小区</p> 
+        <img src="./image/my/right.png" alt="" class="Img2">
+    </li>
+</a>
+    <a href="renting.html">
+    <li>
+        <img src="./image/my/icon3.png" alt="" class="Img1">
+        <p> 我关注的新房</p> 
+        <img src="./image/my/right.png" alt="" class="Img2">
+    </li>
+</a>
+    <a href="businessArea.html">
+    <li>
+        <img src="./image/my/icon4.png" alt="" class="Img1">
+        <p> 我的看房记录</p> 
+        <img src="./image/my/right.png" alt="" class="Img2">
+    </li>
+</a>
+   </ul>
+   <a href="#" class="btn">退出登录</a>
+</body>
+
+</html>
+
+<script src="./js/touch.min.js"></script>
+<script>
+       var body=document.getElementsByTagName('body')
+    // console.log(body)
+    //向左滑动
+    touch.on(body, 'swipeleft', function() {
+        // 跳转到立即登录
+     location.href='./logInNow.html'
+});
+  //向右滑动跳转到立即登录页
+touch.on(body, 'swiperight', function() {
+    // 跳转到我关注的小区
+     location.href='./attention.html'
+});
+</script>

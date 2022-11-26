@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/setRem.js"></script>
+
+</head>
+
+<body>
+    <iframe src="./header.html" frameborder="0" scroling="no" width="100%"></iframe>
+    <!-- 输入框 -->
+    <header>
+        <div>
+            <span></span>
+            <input type="text" placeholder="输入小区或商圈名开始找房咯！">
+        </div>
+    </header>
+    <!-- 导航 -->
+    <section class="sectionOne">
+        <ul>
+           
+            <li>
+ <a href="attention.html">
+                <img src="./image/index/index_03.png" alt="">
+                二手房
+                 </a>
+            </li>
+       
+       
+            <li>
+                 <a href="businessArea.html">
+                <img src="./image/index/index_05.png" alt="">
+                新房
+                  </a>
+            </li>
+      
+      
+            <li>
+                  <a href="./renting.html">
+                <img src="./image/index/index_07.png" alt="">
+                租房
+                 </a>
+            </li>
+       
+      
+            <li>
+                  <a href="housingResource.html">
+                <img src="./image/index/index_09.png" alt="">
+                卖房
+                 </a>
+            </li>
+       
+        </ul>
+    </section>
+    <!--看资讯 -->
+    <section class="sectionTwo">
+        <img src="./image/index/banner2.png" alt="">
+
+    </section>
+    <!--热门房源 -->
+    <section class="sectionThree">
+        <h2>
+            <p>热门房源</p>
+            <span>Hot house</span>
+        </h2>
+        <ul>
+            <li class="box">
+                <div class="img1"><img src="./image/index/img1.jpg" alt=""></div>
+                <div class="text">
+                    <h3>文化部中间层 一层带阁楼</h3>
+                    <p class="num">2室1厅96㎡南北
+                        <span>1105万</span>
+                    </p>
+                    <p class="num1">
+                        红庙北里
+                        <span>14268元/平</span>
+                    </p>
+                    <p class="num2">
+                        <span>学区房</span>
+                        <span>独家</span>
+                    </p>
+                </div>
+
+            </li>
+            <li class="box">
+                <div class="img1"><img src="./image/index/img1.jpg" alt=""></div>
+                <div class="text">
+                    <h3>文化部中间层 一层带阁楼</h3>
+                    <p class="num">2室1厅96㎡南北
+                        <span>1105万</span>
+                    </p>
+                    <p class="num1">
+                        红庙北里
+                        <span>14268元/平</span>
+                    </p>
+                    <p class="num2">
+                        <span>学区房</span>
+                        <span>独家</span>
+                    </p>
+                </div>
+
+            </li>
+            <li>
+                <div class="img1"><img src="./image/index/img1.jpg" alt=""></div>
+                <div class="text">
+                    <h3>文化部中间层 一层带阁楼</h3>
+                    <p class="num">2室1厅96㎡南北
+                        <span>1105万</span>
+                    </p>
+                    <p class="num1">
+                        红庙北里
+                        <span>14268元/平</span>
+                    </p>
+                    <p class="num2">
+                        <span>学区房</span>
+                        <span>独家</span>
+                    </p>
+                </div>
+
+            </li>
+        </ul>
+    </section>
+    <section class="sectionFour">
+        <div class="box1">
+            <p class="hot">热门关注</p>
+            <p>友情链接</p>
+        </div>
+        <div>
+            <ul>
+                <li>北京二手房</li>
+                <li>北京二手房价</li>
+                <li>海淀日租房</li>
+                <li>朝阳新房</li>
+            </ul>
+            <ul>
+                <li>北京找房无忧</li>
+                <li>青年家园</li>
+                <li>免税房源</li>
+                <li>满五年唯一免税</li>
+            </ul>
+
+        </div>
+    </section>
+    <iframe src="./footer.html" frameborder="0" scroling="no" width="100%" class="iframe1"></iframe>
+    <section class="sectionFive">
+        <div class="close"><img src="./image/index/close.png" alt=""></div>
+        <div class="fixed3">
+            <img src="./image/index/download.png" alt="">
+        </div>
+        <div class="fixed">
+            <p class="p1">找房无忧</p>
+            <p class="p2">市场行情，一手掌握！</p>
+        </div>
+        <div class="fixed1">
+            免费下载
+        </div>
+    </section>
+</body>
+
+
+</html>
+<script src="./js/index.js"></script>
+
+<script src="./js/touch.min.js"></script>
+<script>
+    var body = document.getElementsByTagName('body')
+    // console.log(body)
+    touch.on(body,'swipeleft', function () {
+        location.href = './businessArea.html'
+    });
+</script>

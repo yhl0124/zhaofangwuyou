@@ -1,0 +1,394 @@
+//北京租房
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+//头部
+iframe {
+    height: 7rem;
+}
+
+// 底部 
+.iframe1 {
+    height: 15.5rem;
+}
+
+header {
+    background-color: white;
+    margin-top: -.3rem;
+    width: 100%;
+    height: 3rem;
+    // background-color: gold;
+    line-height: 3rem;
+    padding: 0 2rem;
+    border-bottom: 1px solid #c5c5c5;
+    box-sizing: border-box;
+
+    .a {
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+
+    .b {
+        font-size: 1.1rem;
+    }
+}
+
+// 搜索栏
+.sectionOne {
+    width: 100%;
+    height: 7rem;
+    padding: 1rem 3rem;
+    box-sizing: border-box;
+
+    .ipt {
+        width: 100%;
+        height: 4rem;
+        background-color: white;
+
+        input {
+            width: 80%;
+            height: 3.8rem;
+            border: 0;
+            outline: none;
+            font-size: 1.3rem;
+        }
+
+        .seach {
+            display: block;
+            float: right;
+            width: 2.5rem;
+            height: 2r.5em;
+            // background-color: burlywood;
+            margin-top: 1rem;
+            margin-right: 2rem;
+
+            img {
+                width: 100%;
+            }
+        }
+
+    }
+
+}
+
+
+// 导航栏
+.sectionTwo {
+    width: 100%;
+    height: 5rem;
+    // background-color: chartreuse;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+    .box {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+        .bt {
+            color: #FF8A00;
+        }
+
+        li {
+
+            width: 20%;
+            height: 5rem;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 900;
+            line-height: 5rem;
+            color: #666666;
+            position: relative;
+
+            span {
+                border-top: 0.5rem solid #ccc;
+                border-left: 0.5rem solid transparent;
+                border-right: 0.5rem solid transparent;
+                border-bottom: 0.5rem solid transparent;
+                position: absolute;
+                top: 2rem;
+                right: 0;
+
+            }
+        }
+    }
+
+    // 遮罩
+    .mask {}
+
+    // 导航栏选择部分
+    .select {
+        width: 100%;
+        // height: 30rem;
+        position: absolute;
+        top: 0;
+        background-color: white;
+        display: none;
+
+
+
+        // 区域
+        .area {
+
+            width: 100%;
+            height: 30rem;
+            background-color: white;
+            display: flex;
+            display: none;
+
+            // 区域左边
+            .areaLeft {
+                float: left;
+                width: 20%;
+                height: 100%;
+                background-color: #F0F0F0;
+
+                p:nth-of-type(1) {
+                    width: 100%;
+                    background-color: white;
+                    height: 5rem;
+                    text-align: center;
+                    line-height: 5rem;
+                    font-size: 2rem;
+                    font-weight: 900;
+                    color: #FF8A00;
+                }
+
+                p:nth-of-type(2) {
+                    width: 100%;
+                    background-color: #F0F0F0;
+                    height: 5rem;
+                    text-align: center;
+                    line-height: 5rem;
+                    font-size: 2rem;
+                    font-weight: 900;
+                }
+
+            }
+
+            // 区域中间
+            .areaCenter {
+                float: left;
+                width: 40%;
+                height: 100%;
+                // background-color: #FF8A00;
+                text-align: center;
+
+                ul {
+                    li {
+                        font-size: 1.4rem;
+                        height: 4.3rem;
+                        line-height: 4.3rem;
+                    }
+
+                    .cl {
+                        color: #FF8A00;
+                    }
+                }
+
+            }
+
+            // 区域右边
+            .areaRight {
+                float: left;
+                width: 40%;
+                height: 100%;
+                // background-color: #ff002b;
+                text-align: center;
+
+                ul {
+                    li {
+                        font-size: 1.4rem;
+                        height: 4.3rem;
+                        line-height: 4.3;
+                    }
+
+                    .cl {
+                        color: #FF8A00;
+                    }
+                }
+
+            }
+
+
+        }
+
+        // 价格
+        .price {
+            width: 100%;
+            padding: 1rem;
+            box-sizing: border-box;
+            display: none;
+
+            ul {
+                li {
+                    color: #666666;
+                    height: 3rem;
+                    line-height: 3rem;
+                    border-bottom: 1px solid #c5c5c5;
+                }
+            }
+        }
+
+        //房型
+        .house {
+            width: 100%;
+            padding: 1rem;
+            box-sizing: border-box;
+            display: none;
+
+            ul {
+                li {
+                    color: #666666;
+                    height: 3rem;
+                    line-height: 3rem;
+                    border-bottom: 1px solid #c5c5c5;
+
+                    input {
+                        width: 1rem;
+                        height: 1rem;
+                        float: right;
+                        margin-top: 1rem;
+                        margin-right: 1rem;
+                    }
+
+
+                }
+
+                .confirm {
+                    border: 0rem;
+                    text-align: center;
+                    background-color: #FF8A00;
+                    color: white;
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+        // 更多
+        .more {
+            width: 100%;
+            padding: 2rem;
+            box-sizing: border-box;
+            display: none;
+
+            div {
+                width: 100%;
+                // background-color: #FF8A00;
+                padding: 2rem 0;
+                border-bottom: 1px solid #666666;
+
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+
+
+                    li {
+                        height: 3rem;
+                        line-height: 3rem;
+                        width: 20%;
+                        text-align: center;
+                        border: 3px solid #ada4a4;
+                        margin: 1.8%;
+                    }
+                }
+            }
+
+        }
+
+        p {
+            width: 100%;
+            height: 3rem;
+            line-height: 3rem;
+            text-align: center;
+            font-size: 1.4rem;
+        }
+
+        .w {
+            background-color: #FF8A00;
+
+            a {
+                color: white;
+            }
+
+        }
+
+
+
+    }
+}
+
+.sectionThree {
+    width: 100%;
+    height: 60rem;
+    padding: 3rem;
+    box-sizing: border-box;
+
+    ul {
+
+        li {
+            margin-top: 1rem;
+            height: 10rem;
+            width: 100%;
+            // background-color: darkblue;
+            box-sizing: border-box;
+            border-bottom: 1px solid coral;
+
+            .rentalList {
+                float: left;
+                width: 30%;
+                // background-color: salmon;
+                box-sizing: border-box;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .rentalList1 {
+                width: 60%;
+                float: left;
+                margin-left: 1rem;
+                box-sizing: border-box;
+
+                p {
+                    margin-top: 1rem;
+
+                    span {
+                        text-align: center;
+                        width: 5rem;
+                        height: 2rem;
+                        line-height: 2rem;
+                        display: block;
+                        float: left;
+                        border: 1px solid green;
+                        color: green;
+                        font-weight: 600;
+                    }
+
+                    strong {
+                        float: right;
+                        color: #FF8A00;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+        }
+    }
+}

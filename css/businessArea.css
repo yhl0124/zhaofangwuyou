@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #666666;
+}
+body {
+  background-color: #F5F5F5;
+}
+iframe {
+  height: 7rem;
+}
+.iframe1 {
+  height: 15.5rem;
+}
+.sectionOne {
+  width: 100%;
+  height: 7rem;
+  padding: 1rem 3rem;
+  box-sizing: border-box;
+}
+.sectionOne .ipt {
+  width: 100%;
+  height: 4rem;
+  background-color: white;
+}
+.sectionOne .ipt input {
+  width: 80%;
+  height: 3.8rem;
+  border: 0;
+  outline: none;
+  font-size: 1.3rem;
+}
+.sectionOne .ipt .seach {
+  display: block;
+  float: right;
+  width: 2.5rem;
+  height: 2r 0.5em;
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+.sectionOne .ipt .seach img {
+  width: 100%;
+}
+.sectionTwo {
+  width: 100%;
+  height: 5rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.sectionTwo .box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.sectionTwo .box .bt {
+  color: #FF8A00;
+}
+.sectionTwo .box li {
+  width: 20%;
+  height: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 5rem;
+  color: #666666;
+  position: relative;
+}
+.sectionTwo .box li span {
+  border-top: 0.5rem solid #ccc;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  border-bottom: 0.5rem solid transparent;
+  position: absolute;
+  top: 2rem;
+  right: 0;
+}
+.sectionTwo .select {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: white;
+  display: none;
+}
+.sectionTwo .select .area {
+  width: 100%;
+  height: 30rem;
+  background-color: white;
+  display: flex;
+  display: none;
+}
+.sectionTwo .select .area .areaLeft {
+  float: left;
+  width: 20%;
+  height: 100%;
+  background-color: #F0F0F0;
+}
+.sectionTwo .select .area .areaLeft p:nth-of-type(1) {
+  width: 100%;
+  background-color: white;
+  height: 5rem;
+  text-align: center;
+  line-height: 5rem;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #FF8A00;
+}
+.sectionTwo .select .area .areaLeft p:nth-of-type(2) {
+  width: 100%;
+  background-color: #F0F0F0;
+  height: 5rem;
+  text-align: center;
+  line-height: 5rem;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.sectionTwo .select .area .areaCenter {
+  float: left;
+  width: 40%;
+  height: 100%;
+  text-align: center;
+}
+.sectionTwo .select .area .areaCenter ul li {
+  font-size: 1.4rem;
+  height: 4.3rem;
+  line-height: 4.3rem;
+}
+.sectionTwo .select .area .areaCenter ul .cl {
+  color: #FF8A00;
+}
+.sectionTwo .select .area .areaRight {
+  float: left;
+  width: 40%;
+  height: 100%;
+  text-align: center;
+}
+.sectionTwo .select .area .areaRight ul li {
+  font-size: 1.4rem;
+  height: 4.3rem;
+  line-height: 4.3;
+}
+.sectionTwo .select .area .areaRight ul .cl {
+  color: #FF8A00;
+}
+.sectionTwo .select .price {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: none;
+}
+.sectionTwo .select .price ul li {
+  color: #666666;
+  height: 3rem;
+  line-height: 3rem;
+  border-bottom: 1px solid #c5c5c5;
+}
+.sectionTwo .select .house {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: none;
+}
+.sectionTwo .select .house ul li {
+  color: #666666;
+  height: 3rem;
+  line-height: 3rem;
+  border-bottom: 1px solid #c5c5c5;
+}
+.sectionTwo .select .house ul li input {
+  width: 1rem;
+  height: 1rem;
+  float: right;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+.sectionTwo .select .house ul .confirm {
+  border: 0rem;
+  text-align: center;
+  background-color: #FF8A00;
+  color: white;
+  font-size: 1.4rem;
+}
+.sectionTwo .select .more {
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  display: none;
+}
+.sectionTwo .select .more div {
+  width: 100%;
+  padding: 2rem 0;
+  border-bottom: 1px solid #666666;
+}
+.sectionTwo .select .more div ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sectionTwo .select .more div ul li {
+  height: 3rem;
+  line-height: 3rem;
+  width: 20%;
+  text-align: center;
+  border: 3px solid #ada4a4;
+  margin: 1.8%;
+}
+.sectionTwo .select p {
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.sectionTwo .select .w {
+  background-color: #FF8A00;
+}
+.sectionTwo .select .w a {
+  color: white;
+}
+.sectionThree {
+  width: 100%;
+  padding: 3rem;
+  box-sizing: border-box;
+}
+.sectionThree ul li {
+  margin-top: 1rem;
+  height: 10rem;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid coral;
+}
+.sectionThree ul li .rentalList {
+  float: left;
+  width: 30%;
+  box-sizing: border-box;
+}
+.sectionThree ul li .rentalList img {
+  width: 100%;
+}
+.sectionThree ul li .rentalList1 {
+  width: 60%;
+  float: left;
+  margin-left: 1rem;
+  box-sizing: border-box;
+}
+.sectionThree ul li .rentalList1 p {
+  margin-top: 1rem;
+}
+.sectionThree ul li .rentalList1 p strong {
+  color: #ff8a00;
+}
+.sectionThree ul li .rentalList1 .a {
+  color: #666666;
+}
